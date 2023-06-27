@@ -12,6 +12,15 @@
     cursor: pointer;
 }
 
+.box{
+    background-color: #171e33;
+    border-radius: 5px;
+    width: 130px;
+    heigth: 46px;
+    max-width: 130px;
+    max-heigth: 46px;
+}
+
 @media screen and (max-width: 430px){
     .filter {
         overflow: auto;
