@@ -17,9 +17,9 @@
     background-color: #171e33;
     border-radius: 5px;
     min-width: 130px;
-    min-heigth: 80px;
     max-width: 130px;
-    max-heigth: 80px;
+    padding: 10px 5px 10px 5px;
+    justify-content: center;
 }
 
 @media screen and (max-width: 430px){
