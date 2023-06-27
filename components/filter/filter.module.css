@@ -3,7 +3,7 @@
     justify-content: space-between;
     gap: 25px;
     padding: 0 60px;
-    max-width: 1340px;
+    max-width: 1080px;
     margin: 0 auto;
     overflow-x: auto;
 }
@@ -14,11 +14,11 @@
 
 .filter::-webkit-scrollbar-thumb {
   border-radius: 50px;
-  background: #6e6ea9;
+  background: #989898;
 }
 
 .filter::-webkit-scrollbar-track {
-  background: #ededed;
+  background: transparent;
 }
 
 .filterLinks{
