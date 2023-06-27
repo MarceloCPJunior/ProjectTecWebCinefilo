@@ -8,13 +8,15 @@ export default function Filter() {
   return (
     <div className={styles.filter}>
       {Object.entries(sorov).map(([key, { title }]) => (
-        <p
-          key={key}
-          onClick={() => router.push(`/?genre=${key}`)}
-          className={styles.filterLinks}
-        >
-          {title}
-        </p>
+        <div className={styles.box}>
+          <p
+            key={key}
+            onClick={() => router.push(`/?genre=${key}`)}
+            className={styles.filterLinks}
+          >
+            {title}
+          </p>
+        </div>
       ))}
     </div>
   )
