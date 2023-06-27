@@ -6,12 +6,6 @@
     max-width: 1080px;
     margin: 0 auto;
     overflow-x: auto;
-    transition: filter 0.3s;
-    filter: brightness(1);
-}
-
-.filter:hover {
-    filter: brightness(1.2);
 }
 
 .filter::-webkit-scrollbar {
@@ -40,6 +34,12 @@
     max-width: 130px;
     padding: 10px 5px 10px 5px;
     justify-content: center;
+    transition: filter 0.3s;
+    filter: brightness(1);
+}
+
+.box:hover {
+    filter: brightness(1.2);
 }
 
 @media screen and (max-width: 430px){
