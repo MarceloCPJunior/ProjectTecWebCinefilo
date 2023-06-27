@@ -27,6 +27,7 @@
 }
 
 .box{
+    cursor: pointer;
     display: flex;
     background-color: #171e33;
     border-radius: 5px;
