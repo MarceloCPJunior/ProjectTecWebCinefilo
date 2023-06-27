@@ -8,6 +8,19 @@
     overflow-x: auto;
 }
 
+.filter::-webkit-scrollbar {
+  width: 10px;
+}
+
+.filter::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #6e6ea9;
+}
+
+.filter::-webkit-scrollbar-track {
+  background: #ededed;
+}
+
 .filterLinks{
     font-size: 20px;
     cursor: pointer;
