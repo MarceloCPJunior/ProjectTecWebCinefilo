@@ -1,5 +1,6 @@
 .posterCard {
     transition: 0.5s ease;
+    width: 216px;
 }
 
 .posterCard:hover{
