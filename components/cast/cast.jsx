@@ -9,7 +9,7 @@ const Cast = forwardRef(({ credits }, ref) => {
     return (
         <div ref={ref} className={styles.castContainer}>
             <div>
-                <p>Elenco principal</p>
+                <p>Elenco</p>
             </div>
             <div className={styles.castBox}>
                 {credits.map((credit) => (
